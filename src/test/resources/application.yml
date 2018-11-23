@@ -4,7 +4,7 @@ spring:
   datasource:
     driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
     #change sqlserver to mssqlserver to fix
-    url: jdbc:tc:mssqlserver:2017-CU12://somehost:someport;databaseName=Dosye
+    url: jdbc:tc:sqlserver:2017-CU12://somehost:someport;databaseName=Dosye
     type: com.zaxxer.hikari.HikariDataSource
     initialization-mode: always
   test:
